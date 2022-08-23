@@ -1,12 +1,14 @@
-// import logo from './logo.svg';
-import './App.css';
+// import react from "react"
+import Restaurant from "./components/Basics/Restaurant"
+// import "./style.css"
 
 function App() {
   return (
     <>
-    <div className="App">
-      <h1>Hello Crash Devops</h1>
-    </div>
+      <div>
+        <h1 className="App">Hello Crash Devops</h1>
+        <Restaurant />
+      </div>
     </>
   );
 }
